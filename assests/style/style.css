@@ -1,0 +1,414 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+body {
+    display: flex;
+    /* max-width: 1600px; */
+    background-image: url(../img/textura.png);
+    flex-direction: column;
+    background-size: 10%;
+    margin: 0px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-decoration: none;
+    flex: 1;
+    align-items: center;
+}
+.text_center{
+    text-align: center;
+}
+a {
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: black;
+    font-family: "Patrick Hand SC", cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+    /* background-color: saddlebrown; */
+    /* color: white; */
+    background-color:rgb(245, 214, 158);
+    box-shadow: inset 0 0 25px 5px saddlebrown;
+}
+
+.barra_navegacao {
+    flex: auto;
+    display: flex;
+    height: 40px;
+    background-image: url(../img/icon_plataforma.png);
+}
+
+#logo,
+#selecoes,
+#date {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 45px;
+    margin: 0;
+    align-items: center;
+}
+
+#selecoes {
+    display: flex;
+    flex: 3;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+
+}
+
+#date {
+    flex: 1;
+    text-align: center;
+    justify-content: end;
+    font-size: 11px;
+    font-family: "UnifrakturMaguntia", cursive;
+    padding: 0;
+}
+
+.casas {
+    font-size: 14px;
+    text-align: left;
+    justify-content: start;
+    padding: 0px 0px 0px 15px;
+    margin: 0px;
+}
+
+.icon_logoinicial {
+    display: inline-block;
+    flex: 1;
+    align-items: end;
+    justify-content: end;
+    text-align: end;
+}
+
+#icon_logo {
+    flex: auto;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    margin-left: 10%;
+}
+
+.title_central {
+    display: flex;
+    flex: 1;
+    /* background-image: url(../img/tittlebackground2.png); */
+    background-size: 90%;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background-position: center;
+    margin-top: 2px;
+    font-size: 30px;
+    font-family: "UnifrakturMaguntia", cursive;
+    font-style: italic;
+}
+
+.descrition_central {
+    display: flex;
+    flex: 2;
+    font-size: 13px;
+    font-family: "Patrick Hand SC", cursive;
+    padding-inline-start: 5px;
+    text-align: justify;
+    flex-direction: column;
+}
+
+.text_logoinicial {
+    display: flex;
+    flex: 3;
+    font-size: 35px;
+    font-family: "Newsreader", serif;
+    font-style: italic;
+    align-items: center;
+
+}
+
+.carrossel {
+    display: flex;
+    height: 600px;
+    background-image: url(../img/Hogwarts.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bloco {
+    display: flex;
+    flex: 1;
+    background-color: antiquewhite;
+    /* border: 2px solid black; */
+}
+
+.bloco0 {
+    /* max-width: 1000px; */
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    color: aliceblue;
+    font-size: 100px;
+    font-family: "Newsreader", serif;
+    text-align: center;
+}
+
+.subtitle {
+    /* width: 400px; */
+    display: flex;
+    font-size: 30px;
+    text-align: left;
+    flex: 1;
+    align-items: center;
+    text-shadow: 0 0 0.3em rgb(199, 98, 25), 0  0 0.3em rgb(207, 100, 23);
+}
+
+.margin_0{
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+    font-size: 18px;
+}
+.tittle {
+    width: 600px;
+    display: flex;
+    flex: 1;
+    align-items: bottom;
+    background-image: url(../img/Hogwarts\ name3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.bloco1 {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    max-width: 900px;
+}
+.b1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-image: url(../img/paper2.png);
+    background-size: 100%;
+    margin: 1px 1px 0px 1px;
+    width: 200px;
+}
+
+.central_3 {
+    background-image: url(../img/paper3.png);
+    background-size: 100%;
+}
+
+.central_2 {
+    background-image: url(../img/paper.png);
+    background-size: 100%;
+}
+
+.feed {
+    display: flex;
+    flex-direction: row;
+    /* background-color: azure; */
+    align-self: center;
+    /* justify-content: center;
+    justify-items: center; */
+    /* align-items: center; */
+    /* align-content: center; */
+    max-width: 602px;
+    margin: 0px;
+}
+.Notice{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+.notices_title{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.column_div{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+.feed_title_text{
+    display: flex;
+    padding-left: 15px;
+    font-size: 25px;
+    font-family: "Patrick Hand SC", cursive;
+    margin: 0px 0px 0px 0px;
+    font-style: italic;
+}
+.Notices_columns{
+    display: flex;
+    flex-direction: row;
+}
+.Notices_column{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0px;
+    padding: 8px;
+}
+.Departamentos{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 1px;
+}
+.dep_title{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.seletion:hover{
+    background-color:rgb(245, 214, 158);
+    box-shadow: inset 0 0 25px 5px burlywood;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    font-size: 15px;
+    color: aliceblue;
+    flex-direction: column;
+    padding: 0% 5% 0% 5%;
+}
+
+.footer_top {
+    display: flex;
+    flex: 6;
+    flex-direction: row;
+}
+
+.footer_bot {
+    display: flex;
+    flex: 1;
+    font-size: 10px;
+    color: rgb(241, 243, 206);
+}
+
+.footer_top1,
+.footer_top2,
+.footer_top3 {
+    display: flex;
+    flex: 1;
+    padding-top: 1%;
+    justify-content: start;
+    padding-left: 10px;
+    color: bisque;
+    line-break: normal;
+    flex-direction: column;
+    font-size: 12px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.not_title{
+    background-color: rgb(185, 129, 55);
+    color: black;
+    padding: 5px 10px 2px 10px;
+    margin: 5px 2px 5px 10px;
+    font-family: "UnifrakturMaguntia", cursive;
+    font-style: italic;
+}
+.not_icon{
+    display: flex;
+    background-color: rgb(158, 79, 23);
+    align-items: center;
+    padding: 3px;
+    margin: 5px 0px 5px 0px;
+}
+.not_img{
+    display: flex;
+    flex: auto;
+    height: 150px;
+    justify-content: center;
+    /* background-color: whitesmoke; */
+}
+.not_descrition{
+ text-align: justify;
+ font-size: 15px;
+}
+.selection{
+    display: flex;
+    flex: 1;
+    padding: 2px;
+    flex-direction: column;
+    box-shadow: inset 0 0 50px 0px white;
+}
+.dep_descrition{
+    display: flex;
+    flex: 1;
+    /* height: 250px; */
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    /* box-shadow: inset 0 0 20px 0px white; */
+}
+
+img{
+    max-width: 200px;
+}
+h4,
+h3 {
+    margin: 0;
+}
+.txt_center{
+    text-align: center;
+}
+p {
+    /* padding-inline-start: 5px; */
+    text-indent: 8px;
+    margin: 4px;
+}
+
+.linha_footer_top {
+    display: flex;
+    height: 3px;
+    width: 40px;
+    border: none;
+    background-color: rgb(192, 170, 142);
+    margin: 2px 2px 2px 0px;
+}
+.testebut{
+    background: none;
+    border: none;
+    height: 40px;
+    border-bottom: 15px solid black;
+    margin: 2px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    transform: translateY(-38px);
+}& .testebut:hover{
+    transform: translateY(-2px);
+    border-bottom: 0px;
+}
